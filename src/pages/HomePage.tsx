@@ -20,6 +20,9 @@ export default function HomePage() {
           <Button variant="link" onClick={() => navigate("/json")}>
             JSON Formatting
           </Button>
+          <Button variant="link" onClick={() => navigate("/base64")}>
+            Base64 Encode/Decode
+          </Button>
         </div>
       </div>
     </div>
